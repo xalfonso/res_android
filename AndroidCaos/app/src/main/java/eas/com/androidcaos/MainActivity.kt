@@ -81,4 +81,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         drawer_layout.closeDrawer(GravityCompat.START)
         return true
     }
+
+    fun sendMessage(){
+        println("Probando llamada a metodo")
+    }
 }
