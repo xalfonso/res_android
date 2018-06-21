@@ -9,16 +9,22 @@
     tools:showIn="@layout/app_bar_main">
 
     <LinearLayout
-        android:background="@color/colorAccent"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/landscape"/>
 
         <TextView
             android:id="@+id/firstTextView"
             android:background="#FF1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:text="@string/textView1"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -29,9 +35,10 @@
         <TextView
             android:id="@+id/secondTextView"
             android:background="#FA4"
-            android:textAlignment="center"
+            android:textAlignment="textStart"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:text="@string/textView2"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
