@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".InsertRuleActivity"
+            android:name=".ListRuleActivity"
             android:label="@string/title_activity_insert_rule"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
