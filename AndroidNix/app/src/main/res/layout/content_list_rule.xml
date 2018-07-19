@@ -6,6 +6,6 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".ListRuleActivity"
-    tools:showIn="@layout/activity_insert_rule">
+    tools:showIn="@layout/activity_list_rule">
 
 </android.support.constraint.ConstraintLayout>
