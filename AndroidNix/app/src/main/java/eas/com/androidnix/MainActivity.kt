@@ -60,9 +60,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         when (item.itemId) {
             R.id.nav_camera -> {
                 // Handle the camera action
+                println("Estoy dando clic en la camara")
             }
             R.id.nav_gallery -> {
-
+                println("Estoy dando clic en la galeria")
             }
             R.id.nav_slideshow -> {
 
