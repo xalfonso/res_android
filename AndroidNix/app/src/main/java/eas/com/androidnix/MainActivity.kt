@@ -1,5 +1,6 @@
 package eas.com.androidnix
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.design.widget.NavigationView
@@ -58,9 +59,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
-            R.id.nav_camera -> {
-                // Handle the camera action
-                println("Estoy dando clic en la camara")
+            R.id.nav_rules -> {
+                val intent = Intent(this, ListRuleActivity::class.java)
+                startActivity(intent)
             }
             R.id.nav_gallery -> {
                 println("Estoy dando clic en la galeria")

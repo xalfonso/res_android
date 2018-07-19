@@ -6,5 +6,10 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_insert_rule">InsertRuleActivity</string>
+    <string name="title_activity_list_rule">Reglas</string>
+    <string name="title_activity_insert_rule">Registrar Regla</string>
+    <string name="rule_name">Nombre</string>
+    <string name="rule_date_limit">Fecha Limite</string>
+    <string name="rule_factor">Factor</string>
+    <string name="button_accept">Aceptar</string>
 </resources>

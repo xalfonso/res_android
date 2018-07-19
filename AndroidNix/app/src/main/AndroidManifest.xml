@@ -21,6 +21,10 @@
         </activity>
         <activity
             android:name=".ListRuleActivity"
+            android:label="@string/title_activity_list_rule"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InsertRuleActivity"
             android:label="@string/title_activity_insert_rule"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
