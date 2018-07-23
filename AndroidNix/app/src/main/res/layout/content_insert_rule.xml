@@ -55,8 +55,22 @@
         android:ems="10"
         android:inputType="numberDecimal" />
 
+    <TextView
+        android:id="@+id/descriptionLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/inputDescription"
+        android:text="@string/rule_description" />
+
+    <EditText
+        android:id="@+id/inputDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonAccept"
         android:layout_width="249dp"
         android:layout_height="wrap_content"
         android:layout_gravity="right"

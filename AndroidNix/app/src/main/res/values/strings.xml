@@ -11,5 +11,6 @@
     <string name="rule_name">Nombre</string>
     <string name="rule_date_limit">Fecha Limite</string>
     <string name="rule_factor">Factor</string>
+    <string name="rule_description">Observaciones</string>
     <string name="button_accept">Aceptar</string>
 </resources>
